@@ -10,9 +10,28 @@
     "build:server": "cd server && npm run build"
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "@eslint/config-array": "^0.17.0",
+    "@eslint/object-schema": "^2.1.4",
+    "@types/html-webpack-plugin": "^3.2.9",
+    "@types/node": "^20.14.11",
+    "@types/webpack": "^5.28.5",
+    "@vanilla-extract/css-utils": "^0.1.4",
+    "@vanilla-extract/vite-plugin": "^4.0.13",
+    "@vitejs/plugin-react": "^4.3.1",
+    "concurrently": "^8.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
   },
   "dependencies": {
-    "express-validator": "^7.1.0"
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "css-loader": "^7.1.2",
+    "express-validator": "^7.1.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.2.1",
+    "style-loader": "^4.0.0"
   }
 }
